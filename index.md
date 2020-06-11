@@ -7,4 +7,5 @@ function simpleTest() {
 
 <button onclick="printHelloWorld()">Simple test message</button>
 
-<a href="https://ya.ru">Deeplink test</a>
+<a href="https://ya.ru">Yandex test</a>
+<a href="companionapp://host">Deeplink test</a>
