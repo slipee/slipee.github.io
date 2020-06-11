@@ -7,6 +7,7 @@
   }
 
   window.onload = printHelloWorld;
+  console.log("Test")
  
 </script>
 
