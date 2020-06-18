@@ -12,6 +12,6 @@ function openDeeplink() {
 
 <button onclick="openDeeplink()">Open deeplink</button>
 
-<a href="javascript:close_window();">close</a>
+<a href="javascript:close();">close</a>
 
 <a href="https://ya.ru">Open ya.ru</a>
