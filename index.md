@@ -8,6 +8,10 @@ function openDeeplink() {
 function passArray() {
     window.webkit.messageHandlers.test.postMessage([1, 2, 3]);
 }
+    
+function passJSON() {
+    window.CompanionApp.onReady({field1: 1, field2: "2"})
+}
 </script>
 
 
@@ -19,7 +23,7 @@ function passArray() {
 
 <button onclick="window.CompanionApp.onReady()">Test native js</button>
 
-<button onclick="window.CompanionApp.onReady({\"field\": 1})">Test native js with json</button>
+<button onclick="passJSON">Test native js with json</button>
 
 <a href="javascript:close();">close</a>
 
