@@ -19,6 +19,8 @@ function passArray() {
 
 <button onclick="window.CompanionApp.onReady()">Test native js</button>
 
+<button onclick="window.CompanionApp.onReady({\"field\": 1})">Test native js with json</button>
+
 <a href="javascript:close();">close</a>
 
 <a href="https://ya.ru">Open ya.ru</a>
