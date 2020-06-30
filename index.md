@@ -23,7 +23,7 @@ function passJSON() {
 
 <button onclick="window.CompanionApp.onReady()">Test native js</button>
 
-<button onclick="passJSON">Test native js with json</button>
+<button onclick="passJSON()">Test native js with json</button>
 
 <a href="javascript:close();">close</a>
 
