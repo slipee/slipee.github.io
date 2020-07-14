@@ -9,8 +9,8 @@ function passArray() {
     window.webkit.messageHandlers.test.postMessage([1, 2, 3]);
 }
     
-function passJSON() {
-    window.CompanionApp.onReady({field1: 1, field2: "2"})
+function unlinkDevice() {
+    window.CompanionApp.unlinkDevice({"device_id": 123})
 }
 </script>
 
@@ -21,9 +21,9 @@ function passJSON() {
 
 <button onclick="passArray()">Pass array</button>
 
-<button onclick="window.CompanionApp.onReady()">Test native js</button>
+<button onclick="window.CompanionApp.getDeviceConnectionData()">getDeviceConnectionData</button>
 
-<button onclick="passJSON()">Test native js with json</button>
+<button onclick="unlinkDevice()">Test native js with json</button>
 
 <a href="javascript:close();">close</a>
 
