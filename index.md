@@ -1,29 +1,10 @@
 <script>
-function simpleTest() {
-    window.webkit.messageHandlers.test.postMessage("Hello, world!");
-}
 function openDeeplink() {
-    window.open("companionapp://host")    
-}
-function passArray() {
-    window.webkit.messageHandlers.test.postMessage([1, 2, 3]);
-}
-    
-function unlinkDevice() {
-    window.CompanionApp.unlinkDevice({"device_id": 123})
+    window.open("bank100000000150://qr.nspk.ru/AD10006TH9FATFTH9S2BC4T25BHS7F6E?type=02&bank=100000000078&sum=826241&cur=RUB&crc=FC9C")    
 }
 </script>
 
-
-<button onclick="simpleTest()">Simple test message</button>
-
-<button onclick="openDeeplink()">Open deeplink</button>
-
-<button onclick="passArray()">Pass array</button>
-
-<button onclick="window.CompanionApp.getDeviceConnectionData()">getDeviceConnectionData</button>
-
-<button onclick="unlinkDevice()">Test native js with json</button>
+<button onclick="openTransferNspkDeeplink()">Open deeplink</button>
 
 <a href="javascript:close();">close</a>
 
