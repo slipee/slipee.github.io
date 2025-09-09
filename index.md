@@ -13,3 +13,5 @@ function openIntentDeeplink() {
 <a href="javascript:close();">close</a>
 
 <a href="https://ya.ru">Open ya.ru</a>
+
+<a href="yandexbank://deeplink/intent?url=https%3A%2F%2Fcare.yandex.ru%2Fgo%2Fmarketplace%2Finsapp%3Futm_source%3Dpay%26utm_medium%3Dscanner_control%26utm_campaign%3Dpay_scanner_control_osago">Open intent</a>
