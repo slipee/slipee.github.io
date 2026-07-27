@@ -7,7 +7,7 @@ function openIntentDeeplink() {
 }
 </script>
 
-<button onclick="openTransferNspkDeeplink()">Open deeplink</button>
+<button onclick="openNspkApplink()">Open nspk applink</button>
 <button onclick="openIntentDeeplink()">Open intent deeplink</button>
 
 <a href="javascript:close();">close</a>
